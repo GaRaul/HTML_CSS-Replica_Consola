@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+}
+
+.game_boy {
+  border-radius: 20px;
+  position: relative;
+  margin: 25vh 40vw;
+  background-color: rgb(40, 231, 245);
+  height: 500px;
+  width: 300px;
+}
+
+.borde_pantalla {
+  position: absolute;
+  background-color: black;
+  width: 80%;
+  height: 45%;
+  margin: 10%;
+  margin-top: 10%;
+  border-radius: 5%;
+}
+
+.luz_pantalla {
+  position: absolute;
+  background-color: rgb(241, 0, 0);
+  width: 3%;
+  height: 3%;
+  margin: 3.5%;
+  margin-top: 45%;
+  border-radius: 100%;
+}
+
+.pantalla {
+  position: absolute;
+  background-color: rgb(51, 49, 49);
+  width: 80%;
+  height: 76%;
+  margin: 10%;
+  margin-top: 10%;
+  border-radius: 1%;
+}
+
+.letras_pantalla {
+  position: absolute;
+  margin-top: 83.5%;
+  color: whitesmoke;
+  margin-left: 30%;
+}
+
+.cruceta {
+  width: 75px;
+  height: 75px;
+  bottom: 26%;
+  margin-left: 10%;
+  position: absolute;
+}
+
+.izquierda-derecha,
+.arriba-abajo {
+  position: absolute;
+  width: 100%;
+  height: 24%;
+  top: 38%;
+  background-color:rgb(65, 65, 65);
+  cursor: pointer;
+}
+
+.arriba-abajo {
+  transform: rotate(90deg);
+  transform-origin: center;
+}
+
+.botones {
+  transform: rotate(45deg);
+  transform-origin: center; 
+  bottom: 24%;
+  right: 20%;
+  position: absolute;
+  background-color: rgb(65, 65, 65);
+  border-radius: 50px;
+  padding: 4px 2px;
+}
+
+.botonA, .botonB {
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(35, 117, 122);
+  cursor: pointer;
+  transform: rotate(-45deg);
+  text-align: right;
+  color: #39363b;
+  font-family: sans-serif;
+  font-size: x-small;
+  font-weight: bold;
+  line-height: 78px;
+}
+
+.botonA {
+  margin-bottom: 10px;
+}
+
+
+.botonA:hover, .botonB:hover {
+ background: #2e2d41;
+}
+
+.botonesMenu {
+    position: absolute;
+    bottom: 10%;
+    left: 32%;
+
+}
+
+.start, .select {
+  position: relative;
+  width: 35px;
+  height: 10px;
+  display: inline-block;
+  background-color: #141035;
+  border-radius: 5px;
+  transform: rotate(-20deg);
+  text-align: center;
+  font-size: small;
+  font-weight: bold;
+  color: #402750;
+  line-height: 35px;
+  cursor: pointer;
+}
+.altavoz {
+  position: absolute;
+  bottom: 3%;
+  right: 8%;
+  transform: rotate(45deg);
+
+}
+.ranura {
+  position: relative;
+  display: block;
+  width: 43px;
+  height: 6px;
+  background-color: #000000;
+  margin-bottom: 4px;
+  border-radius: 50%;
+  transform-origin: top;
+
+}
